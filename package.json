@@ -1,0 +1,37 @@
+{
+  "name": "dez",
+  "version": "0.0.0",
+  "description": "dezorse and dezonkey callback style functions.",
+  "homepage": "https://github.com/sonnyp/dez",
+  "bugs": "https://github.com/sonnyp/dez/issues",
+  "license": "ISC",
+  "author": "Sonny Piers <sonny@fastmail.net>",
+  "keywords": [
+    "async",
+    "safe",
+    "error",
+    "throw",
+    "zalgo",
+    "zonkey",
+    "zorse"
+  ],
+  "scripts": {
+    "benchmark": "node benchmark/benchmark.js",
+    "example": "node example.js",
+    "preversion": "npm test",
+    "lint": "standard",
+    "unit": "node test.js",
+    "test": "npm run unit && npm run lint"
+  },
+  "repository": "github:sonnyp/dez",
+  "devDependencies": {
+    "asap": "^2.0.3",
+    "benchmark": "^2.1.0",
+    "lodash": "^4.11.1",
+    "platform": "^1.3.1"
+  },
+  "dependencies": {
+    "dezonkey": "^1.0.0",
+    "dezorse": "^1.0.0"
+  }
+}
