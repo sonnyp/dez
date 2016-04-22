@@ -31,3 +31,18 @@ assert.equal(called, false)
 setTimeout(function () {
   assert.equal(called, true)
 })
+
+function zony (cb) {
+  cb('foo')
+  cb('bar')
+}
+var dezony = dez(zony)
+var i = 0
+
+dezony(function () {
+  i++
+})
+
+setTimeout(function () {
+  assert.equal(i, 1)
+})

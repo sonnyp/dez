@@ -29,7 +29,7 @@
     cb()
   }
 
-  // let's dezorse and dezonkey
+  // let's dezorse dezonkey and dezony
   var safeLog = dez(log, asap)
 
   console.log('before')

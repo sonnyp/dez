@@ -1,7 +1,7 @@
 {
   "name": "dez",
   "version": "0.0.0",
-  "description": "dezorse and dezonkey callback style functions.",
+  "description": "dezorse, dezonkey and dezony JavaScript callback style functions.",
   "homepage": "https://github.com/sonnyp/dez",
   "bugs": "https://github.com/sonnyp/dez/issues",
   "license": "ISC",
@@ -13,7 +13,8 @@
     "throw",
     "zalgo",
     "zonkey",
-    "zorse"
+    "zorse",
+    "zony"
   ],
   "scripts": {
     "benchmark": "node benchmark/benchmark.js",
@@ -32,6 +33,7 @@
   },
   "dependencies": {
     "dezonkey": "^1.0.0",
+    "dezony": "^1.0.0",
     "dezorse": "^1.0.0"
   }
 }
